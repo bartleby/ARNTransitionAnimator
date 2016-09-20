@@ -8,9 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		918B731A1BAFDBBC0030A449 /* ARNTransitionAnimator.h in Headers */ = {isa = PBXBuildFile; fileRef = 918B73191BAFDBBC0030A449 /* ARNTransitionAnimator.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		918B73211BAFDBBE0030A449 /* ARNTransitionAnimator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 918B73161BAFDBB90030A449 /* ARNTransitionAnimator.framework */; settings = {ASSET_TAGS = (); }; };
+		918B73211BAFDBBE0030A449 /* ARNTransitionAnimator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 918B73161BAFDBB90030A449 /* ARNTransitionAnimator.framework */; };
 		918B73261BAFDBC00030A449 /* ARNTransitionAnimatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918B73251BAFDBC00030A449 /* ARNTransitionAnimatorTests.swift */; };
-		918B73311BAFDC030030A449 /* ARNTransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918B73301BAFDC030030A449 /* ARNTransitionAnimator.swift */; settings = {ASSET_TAGS = (); }; };
+		918B73311BAFDC030030A449 /* ARNTransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918B73301BAFDC030030A449 /* ARNTransitionAnimator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -151,9 +151,11 @@
 				TargetAttributes = {
 					918B73151BAFDBB90030A449 = {
 						CreatedOnToolsVersion = 7.0;
+						LastSwiftMigration = 0800;
 					};
 					918B731F1BAFDBBE0030A449 = {
 						CreatedOnToolsVersion = 7.0;
+						LastSwiftMigration = 0800;
 					};
 				};
 			};
@@ -257,7 +259,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -299,7 +301,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -324,6 +326,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -341,6 +344,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = xxxAIRINxxx.ARNTransitionAnimator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -351,6 +355,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = xxxAIRINxxx.ARNTransitionAnimatorTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -361,6 +366,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = xxxAIRINxxx.ARNTransitionAnimatorTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
